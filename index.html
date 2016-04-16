@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Tabs</title>
+      <link rel="stylesheet" href="css/style.css">
+      <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="js/script.js"></script>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+   </head>
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12">
+               <h1>Tabs</h1>
+               <ul id="tabs" class="nav nav-tabs">
+                  <li class="active"><a href="#tab1">Nunc tincidunt</a></li>
+                  <li><a href="#tab2">Proin dolor</a></li>
+                  <li><a href="#tab3">Aenean lacinia</a></li>
+                  <li><a href="#form">Form</a></li>
+               </ul>
+               <div id="tab1" class="tab">
+                  <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+               </div>
+               <div id="tab2" class="tab">
+                  <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+               </div>
+               <div id="tab3" class="tab">
+                  <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+                  <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+               </div>
+               <div id="form" class="tab">
+                  <div class="row">
+                     <div class="col-xs-6">
+                        <form class="form-horizontal">
+                           <div class="form-group">
+                              <label for="inputFirstName" class="col-sm-4 control-label">First name</label>
+                              <div class="col-sm-8">
+                                 <input type="text" class="form-control" id="inputFirstName" placeholder="First name" data-hint="Please provide your first name.">
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label for="inputLastName" class="col-sm-4 control-label">Last name</label>
+                              <div class="col-sm-8">
+                                 <input type="text" class="form-control" id="inputLastName" placeholder="Last name" data-hint="Please provide also your last name.">
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label for="inputAddress" class="col-sm-4 control-label">Address</label>
+                              <div class="col-sm-8">
+                                 <input type="text" class="form-control" id="inputAddress" placeholder="Address" data-hint="Your home or work address.">
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <div class="col-sm-offset-4 col-sm-8">
+                                 <button type="button" class="btn btn-default">Show Help</button>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
