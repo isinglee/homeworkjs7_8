@@ -1,6 +1,7 @@
 $(function() {
     var $links = $('li a');
-    $links.on('click', function() {
+    $links.on('click', function(event) {
+        event.preventDefault();
         // Скрываем предыдущую активную вкладку
         var activeId = $('li.active a').attr('href');
         var that = this;
